@@ -1,0 +1,19 @@
+.Card {
+    background-color: gray;
+    width: 10%;
+    min-width: 100px;
+    height: 150px;
+    margin: 10px;
+    border: 6px solid gray;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+@media (max-width: 400px) {
+    .Card {
+        width: 15%;
+        min-width: 35px;
+        height: 80px;
+        border-radius: 5px;
+    }
+}

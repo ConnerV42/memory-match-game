@@ -16,7 +16,7 @@ class Navbar extends Component {
             <header>
                 <h1><a>Memory Match: Find the Matching Pairs!</a></h1>
                 <nav>
-                    <li><a onClick={this.props.onNewGame}>New Game</a></li>
+                    <h1><a onClick={this.props.onNewGame}>New Game</a></h1>
                 </nav>
             </header>
         );

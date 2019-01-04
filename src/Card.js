@@ -1,16 +1,10 @@
 import React, { Component } from 'react';
+import "./Card.css";
 import PropTypes from 'prop-types';
 
 const Card = props => {
     const style = {
-        backgroundColor: "gray",
-        width: "10%",
-        minWidth: "100px",
-        height: "150px",
-        margin: "10px",
-        border: "6px solid gray",
-        borderRadius: "25px",
-        display: "inline-block"
+        backgroundColor: "gray"
     }
 
     if (props.showing) {
@@ -19,6 +13,7 @@ const Card = props => {
 
     return (
         <div
+            className="Card"
             style={style}
             onClick={props.onClick}
         />
